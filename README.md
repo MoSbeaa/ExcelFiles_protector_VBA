@@ -9,6 +9,11 @@ The gettingCells subroutine prompts the user to select an Excel file and copies 
 The makeLoop subroutine loops through each row in a table defined by the used range of cells starting at cell A1 and calls the addPassword subroutine for each row with arguments from columns A and C. 
 The addPassword subroutine adds a password to Excel files in a specified folder and its sub-folders.
 
+# How to start
+> First you should state all your sub-folders names and the password for each one in "Password List Example" file
+> Second you will open "Protect_excel_files_Recursion.xlsm" or "Protect_excel_files_No_Recursion.xlsm" and you will follow the instructions
+
+
 # Without Recursion
 the file "Protect_excel_files_No_Recursion.xlsm" doesn't use recursion and it can go 8 level depth in the sub-folders
 
