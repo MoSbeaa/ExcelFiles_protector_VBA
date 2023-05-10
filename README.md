@@ -10,8 +10,8 @@ The makeLoop subroutine loops through each row in a table defined by the used ra
 The addPassword subroutine adds a password to Excel files in a specified folder and its sub-folders.
 
 # How to start
-> First you should state all your sub-folders names and the password for each one in "Password List Example" file
-> Second you will open "Protect_excel_files_Recursion.xlsm" or "Protect_excel_files_No_Recursion.xlsm" and you will follow the instructions
+1. First you should state all your sub-folders names and the password for each one in "Password List Example" file
+2. Second you will open "Protect_excel_files_Recursion.xlsm" or "Protect_excel_files_No_Recursion.xlsm" and you will follow the instructions
 
 
 # Without Recursion
@@ -25,3 +25,4 @@ the file "Protect_excel_files_Recursion.xlsm" use recursion and it can go unlimi
 is that with recursion you can go to unlimited depth of sub-folders but it will take more time to excite 
 While without it go only 8 level depth(you can increase them by insert more loops) but it faster when executing
 
+>Created by Mohamad Al Sbeaa 2023
